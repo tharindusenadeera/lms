@@ -1,12 +1,24 @@
 import React from 'react'
 import {Button} from "@/components/ui/button";
+import CompanionCard from "@/components/dashboard/companionCard";
+import RecentlyCompletedTable from "@/components/dashboard/recentlyCompletedTable";
+import ActionCard from "@/components/dashboard/actionCard";
 
 const Page = () => {
   return (
-    <div>
-        <h1 className="text-2xl underline"> Welcome to my SaaS App</h1>
-        <Button>Let's get start</Button>
-    </div>
+    <main>
+        <h1 className="text-2xl"> Dashboard</h1>
+        <section className="home-section">
+            <CompanionCard />
+            <CompanionCard />
+            <CompanionCard />
+        </section>
+        <section className="home-section">
+            <RecentlyCompletedTable />
+            <ActionCard />
+        </section>
+
+    </main>
   )
 }
 
