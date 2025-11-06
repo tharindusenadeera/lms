@@ -81,3 +81,11 @@ interface CompanionComponentProps {
   voice: string;
   style: string;
 }
+
+interface CompanionCardProps {
+    id: string;
+    subject: string;
+    topic: string;
+    name: string;
+    duration: number;
+}

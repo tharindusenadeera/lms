@@ -7,7 +7,7 @@ import ActionCard from "@/components/dashboard/actionCard";
 const Page = () => {
   return (
     <main>
-        <h1 className="text-2xl"> Dashboard</h1>
+        <h1 > Dashboard</h1>
         <section className="home-section">
             <CompanionCard />
             <CompanionCard />
